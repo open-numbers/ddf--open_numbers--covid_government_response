@@ -10,4 +10,4 @@ This is [ddf--oxford--covid_government_response](https://github.com/open-numbers
 All data comes from the [OxCGRT github repository](https://github.com/OxCGRT/covid-policy-tracker). More information can be found on [OxCGRT website](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker).
 
 ## Updates
-OxCGRT is updated hourly, Gapminder updates this dataset daily. This dataset may be behind one day to the OxCGRT repository.
+OxCGRT is updated hourly, Gapminder also updates this dataset hourly. This dataset may be behind one hour to the OxCGRT repository.
