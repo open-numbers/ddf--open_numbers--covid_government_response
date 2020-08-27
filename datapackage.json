@@ -11,7 +11,7 @@
         "open-numbers/ddf--oxford--covid_government_response",
         "open-numbers/ddf--open_numbers"
     ],
-    "created": "2020-08-27T18:38:07.909397+00:00",
+    "created": "2020-08-27T19:38:24.021031+00:00",
     "id": "ddf--open_numbers--covid_government_response",
     "translations": [],
     "resources": [
@@ -787,6 +787,48 @@
                     },
                     {
                         "name": "m1_wildcard"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--region_code--by--geo--time",
+            "path": "ddf--datapoints--region_code--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "region_code"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--region_name--by--geo--time",
+            "path": "ddf--datapoints--region_name--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "region_name"
                     }
                 ],
                 "primaryKey": [
@@ -3045,6 +3087,46 @@
                 "value": "m1_wildcard",
                 "resources": [
                     "ddf--datapoints--m1_wildcard--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "region_code",
+                "resources": [
+                    "ddf--datapoints--region_code--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "region_code",
+                "resources": [
+                    "ddf--datapoints--region_code--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "region_name",
+                "resources": [
+                    "ddf--datapoints--region_name--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "region_name",
+                "resources": [
+                    "ddf--datapoints--region_name--by--geo--time"
                 ]
             },
             {
