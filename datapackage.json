@@ -11,7 +11,7 @@
         "open-numbers/ddf--oxford--covid_government_response",
         "open-numbers/ddf--open_numbers"
     ],
-    "created": "2020-10-20T22:08:02.276385+00:00",
+    "created": "2020-10-23T06:52:49.300533+00:00",
     "id": "ddf--open_numbers--covid_government_response",
     "translations": [],
     "resources": [
@@ -766,6 +766,48 @@
                     },
                     {
                         "name": "h5_investment_in_vaccines"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--h6_facial_coverings--by--geo--time",
+            "path": "ddf--datapoints--h6_facial_coverings--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "h6_facial_coverings"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--h6_flag--by--geo--time",
+            "path": "ddf--datapoints--h6_flag--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "h6_flag"
                     }
                 ],
                 "primaryKey": [
@@ -3067,6 +3109,46 @@
                 "value": "h5_investment_in_vaccines",
                 "resources": [
                     "ddf--datapoints--h5_investment_in_vaccines--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "h6_facial_coverings",
+                "resources": [
+                    "ddf--datapoints--h6_facial_coverings--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "h6_facial_coverings",
+                "resources": [
+                    "ddf--datapoints--h6_facial_coverings--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "h6_flag",
+                "resources": [
+                    "ddf--datapoints--h6_flag--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "h6_flag",
+                "resources": [
+                    "ddf--datapoints--h6_flag--by--geo--time"
                 ]
             },
             {
