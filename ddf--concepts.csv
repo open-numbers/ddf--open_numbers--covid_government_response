@@ -51,6 +51,7 @@ iso3166_1_alpha2,,string,,,,http://www.iso.org/iso/home/standards/country_codes.
 iso3166_1_alpha3,,string,,,,http://www.iso.org/iso/home/standards/country_codes.htm,ISO 3166-1 alpha-3,,,_none,
 iso3166_1_numeric,,string,,,,http://www.iso.org/iso/home/standards/country_codes.htm,ISO 3166-1 numeric,,,_none,
 iso3166_2,,string,,,,https://en.wikipedia.org/wiki/ISO_3166-2,ISO 3166-2,,,_none,
+jurisdiction,,string,,,,,Jurisdiction,,,,
 landlocked,"{""palette"": {""landlocked"": ""#f05656"", ""coastline"": ""#7487ef""}}",entity_set,,geo,,https://docs.google.com/spreadsheet/pub?key=rBwKBodk7Y08pGiA4OAfzUA,Landlocked,,,categorizations,
 latitude,,measure,,,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,Latitude,"[""linear""]",,_none,degrees
 longitude,,measure,,,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,Longitude,"[""linear""]",,_none,degrees

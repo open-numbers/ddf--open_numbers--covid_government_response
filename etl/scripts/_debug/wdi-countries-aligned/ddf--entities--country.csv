@@ -2,7 +2,6 @@ country,country_new,name
 abw,abw,Aruba
 afg,afg,Afghanistan
 ago,ago,Angola
-aia,aia,Anguilla
 alb,alb,Albania
 and,and,Andorra
 are,are,United Arab Emirates
@@ -42,7 +41,6 @@ com,com,Comoros
 cpv,cpv,Cape Verde
 cri,cri,Costa Rica
 cub,cub,Cuba
-cym,cym,Cayman Islands
 cyp,cyp,Cyprus
 cze,cze,Czech Republic
 deu,deu,Germany
@@ -59,13 +57,12 @@ est,est,Estonia
 eth,eth,Ethiopia
 fin,fin,Finland
 fji,fji,Fiji
-flk,flk,Falkland Islands
 fra,fra,France
+fro,fro,Faeroe Islands
 gab,gab,Gabon
 gbr,gbr,United Kingdom
 geo,geo,Georgia
 gha,gha,Ghana
-gib,gib,Gibraltar
 gin,gin,Guinea
 gmb,gmb,Gambia
 grc,grc,Greece
@@ -115,7 +112,6 @@ mmr,mmr,Myanmar
 mng,mng,Mongolia
 moz,moz,Mozambique
 mrt,mrt,Mauritania
-msr,msr,Montserrat
 mus,mus,Mauritius
 mwi,mwi,Malawi
 mys,mys,Malaysia
@@ -130,7 +126,6 @@ nzl,nzl,New Zealand
 omn,omn,Oman
 pak,pak,Pakistan
 pan,pan,Panama
-pcn,pcn,Pitcairn Islands
 per,per,Peru
 phl,phl,Philippines
 png,png,Papua New Guinea
@@ -162,7 +157,6 @@ swe,swe,Sweden
 swz,swz,Eswatini
 syc,syc,Seychelles
 syr,syr,Syria
-tca,tca,Turks and Caicos Islands
 tcd,tcd,Chad
 tgo,tgo,Togo
 tha,tha,Thailand
@@ -180,7 +174,6 @@ ury,ury,Uruguay
 usa,usa,United States
 uzb,uzb,Uzbekistan
 ven,ven,Venezuela
-vgb,vgb,British Virgin Islands
 vir,vir,United States Virgin Islands
 vnm,vnm,Vietnam
 vut,vut,Vanuatu
