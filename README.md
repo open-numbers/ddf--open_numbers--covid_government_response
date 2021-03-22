@@ -6,6 +6,12 @@ OxCGRT collects publicly available information on 17 indicators of government re
 ## Open Numbers
 This is [ddf--oxford--covid_government_response](https://github.com/open-numbers/ddf--oxford--covid_government_response) harmonized to the Open Numbers name space. This means it uses the same identifiers as all other Open Numbers datasets and can thus easily be analyzed and visualized with other datasets.
 
+To get started with DDF and learn how to use the dataset, please read the
+[introduction to DDF][1] and [DDFcsv format document][2].
+
+[1]: https://open-numbers.github.io/ddf.html
+[2]: https://docs.google.com/document/d/1aynARjsrSgOKsO1dEqboTqANRD1O9u7J_xmxy8m5jW8
+
 ## Source
 All data comes from the [OxCGRT github repository](https://github.com/OxCGRT/covid-policy-tracker). More information can be found on [OxCGRT website](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker).
 
