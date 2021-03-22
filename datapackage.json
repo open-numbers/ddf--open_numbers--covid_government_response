@@ -11,9 +11,9 @@
         "open-numbers/ddf--oxford--covid_government_response",
         "open-numbers/ddf--open_numbers"
     ],
+    "created": "2020-06-09T15:37:55.080970+00:00",
     "id": "ddf--open_numbers--covid_government_response",
     "translations": [],
-    "created": "2020-05-23T14:52:27.702251+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -418,6 +418,48 @@
             }
         },
         {
+            "name": "ddf--datapoints--containment_health_index--by--geo--time",
+            "path": "ddf--datapoints--containment_health_index--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "containment_health_index"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--containment_health_index_for_display--by--geo--time",
+            "path": "ddf--datapoints--containment_health_index_for_display--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "containment_health_index_for_display"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--e1_flag--by--geo--time",
             "path": "ddf--datapoints--e1_flag--by--geo--time.csv",
             "schema": {
@@ -514,6 +556,90 @@
                     },
                     {
                         "name": "e4_international_support"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--economic_support_index--by--geo--time",
+            "path": "ddf--datapoints--economic_support_index--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "economic_support_index"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--economic_support_index_for_display--by--geo--time",
+            "path": "ddf--datapoints--economic_support_index_for_display--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "economic_support_index_for_display"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--government_response_index--by--geo--time",
+            "path": "ddf--datapoints--government_response_index--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "government_response_index"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--government_response_index_for_display--by--geo--time",
+            "path": "ddf--datapoints--government_response_index_for_display--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "government_response_index_for_display"
                     }
                 ],
                 "primaryKey": [
@@ -649,48 +775,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--legacy_stringency_index--by--geo--time",
-            "path": "ddf--datapoints--legacy_stringency_index--by--geo--time.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "time"
-                    },
-                    {
-                        "name": "legacy_stringency_index"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "time"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--legacy_stringency_index_for_display--by--geo--time",
-            "path": "ddf--datapoints--legacy_stringency_index_for_display--by--geo--time.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "time"
-                    },
-                    {
-                        "name": "legacy_stringency_index_for_display"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "time"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--m1_wildcard--by--geo--time",
             "path": "ddf--datapoints--m1_wildcard--by--geo--time.csv",
             "schema": {
@@ -745,6 +829,48 @@
                     },
                     {
                         "name": "stringency_index_for_display"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--stringency_legacy_index--by--geo--time",
+            "path": "ddf--datapoints--stringency_legacy_index--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "stringency_legacy_index"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--stringency_legacy_index_for_display--by--geo--time",
+            "path": "ddf--datapoints--stringency_legacy_index_for_display--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "stringency_legacy_index_for_display"
                     }
                 ],
                 "primaryKey": [
@@ -2419,6 +2545,46 @@
                     "country",
                     "time"
                 ],
+                "value": "containment_health_index",
+                "resources": [
+                    "ddf--datapoints--containment_health_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "containment_health_index",
+                "resources": [
+                    "ddf--datapoints--containment_health_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "containment_health_index_for_display",
+                "resources": [
+                    "ddf--datapoints--containment_health_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "containment_health_index_for_display",
+                "resources": [
+                    "ddf--datapoints--containment_health_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
                 "value": "e1_flag",
                 "resources": [
                     "ddf--datapoints--e1_flag--by--geo--time"
@@ -2512,6 +2678,86 @@
                 "value": "e4_international_support",
                 "resources": [
                     "ddf--datapoints--e4_international_support--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "economic_support_index",
+                "resources": [
+                    "ddf--datapoints--economic_support_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "economic_support_index",
+                "resources": [
+                    "ddf--datapoints--economic_support_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "economic_support_index_for_display",
+                "resources": [
+                    "ddf--datapoints--economic_support_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "economic_support_index_for_display",
+                "resources": [
+                    "ddf--datapoints--economic_support_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "government_response_index",
+                "resources": [
+                    "ddf--datapoints--government_response_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "government_response_index",
+                "resources": [
+                    "ddf--datapoints--government_response_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "government_response_index_for_display",
+                "resources": [
+                    "ddf--datapoints--government_response_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "government_response_index_for_display",
+                "resources": [
+                    "ddf--datapoints--government_response_index_for_display--by--geo--time"
                 ]
             },
             {
@@ -2639,46 +2885,6 @@
                     "country",
                     "time"
                 ],
-                "value": "legacy_stringency_index",
-                "resources": [
-                    "ddf--datapoints--legacy_stringency_index--by--geo--time"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "time"
-                ],
-                "value": "legacy_stringency_index",
-                "resources": [
-                    "ddf--datapoints--legacy_stringency_index--by--geo--time"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "time"
-                ],
-                "value": "legacy_stringency_index_for_display",
-                "resources": [
-                    "ddf--datapoints--legacy_stringency_index_for_display--by--geo--time"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "time"
-                ],
-                "value": "legacy_stringency_index_for_display",
-                "resources": [
-                    "ddf--datapoints--legacy_stringency_index_for_display--by--geo--time"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "time"
-                ],
                 "value": "m1_wildcard",
                 "resources": [
                     "ddf--datapoints--m1_wildcard--by--geo--time"
@@ -2732,6 +2938,46 @@
                 "value": "stringency_index_for_display",
                 "resources": [
                     "ddf--datapoints--stringency_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "stringency_legacy_index",
+                "resources": [
+                    "ddf--datapoints--stringency_legacy_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "stringency_legacy_index",
+                "resources": [
+                    "ddf--datapoints--stringency_legacy_index--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "stringency_legacy_index_for_display",
+                "resources": [
+                    "ddf--datapoints--stringency_legacy_index_for_display--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "stringency_legacy_index_for_display",
+                "resources": [
+                    "ddf--datapoints--stringency_legacy_index_for_display--by--geo--time"
                 ]
             }
         ],
