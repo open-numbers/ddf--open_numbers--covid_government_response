@@ -79,7 +79,6 @@ cooking:
     ingredients:
     - countries
     options:
-      debug: true
       column: name
       target_column: country_new
       dictionary:
@@ -91,7 +90,6 @@ cooking:
     ingredients:
     - datapoints
     options:
-      debug: true
       column: country
       dictionary:
         base: wdi-countries-aligned
