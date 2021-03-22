@@ -11,7 +11,7 @@
         "open-numbers/ddf--oxford--covid_government_response",
         "open-numbers/ddf--open_numbers"
     ],
-    "created": "2021-03-02T00:23:41.136786+00:00",
+    "created": "2021-03-22T13:54:40.356072+00:00",
     "id": "ddf--open_numbers--covid_government_response",
     "translations": [],
     "resources": [
@@ -850,6 +850,48 @@
                     },
                     {
                         "name": "h7_vaccination_policy"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--h8_flag--by--geo--time",
+            "path": "ddf--datapoints--h8_flag--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "h8_flag"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--h8_protection_of_elderly_people--by--geo--time",
+            "path": "ddf--datapoints--h8_protection_of_elderly_people--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "h8_protection_of_elderly_people"
                     }
                 ],
                 "primaryKey": [
@@ -3252,6 +3294,46 @@
                 "value": "h7_vaccination_policy",
                 "resources": [
                     "ddf--datapoints--h7_vaccination_policy--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "h8_flag",
+                "resources": [
+                    "ddf--datapoints--h8_flag--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "h8_flag",
+                "resources": [
+                    "ddf--datapoints--h8_flag--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "h8_protection_of_elderly_people",
+                "resources": [
+                    "ddf--datapoints--h8_protection_of_elderly_people--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "h8_protection_of_elderly_people",
+                "resources": [
+                    "ddf--datapoints--h8_protection_of_elderly_people--by--geo--time"
                 ]
             },
             {
